@@ -23,7 +23,7 @@ document
       const data = await response.json();
 
       const formattedPrice = Number(data.predicted_price).toLocaleString(
-        "en-US",
+        "vi-VN",
       );
 
       result.textContent = `Predicted Price: ${formattedPrice} VND`;
